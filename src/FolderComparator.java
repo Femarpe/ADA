@@ -26,5 +26,9 @@ public class FolderComparator {
     public File getFolderB() {
         return folderB;
     }
-    public String
+
+    public String compare() {
+        String salida = "";
+        return salida;
+    }
 }
