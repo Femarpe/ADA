@@ -12,5 +12,6 @@ public class Main {
         File f1 = new File(ruta1);
         File f2 = new File(ruta2);
         folderComparator.setFolders(f1, f2);
+        System.out.println(folderComparator.compare());
     }
 }

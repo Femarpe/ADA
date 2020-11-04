@@ -29,6 +29,15 @@ public class FolderComparator {
 
     public String compare() {
         String salida = "";
+        if (listaDeficheros1.length == listaDeficheros2.length){
+            for (int i = 0; i < listaDeficheros1.length ; i++) {
+                if (listaDeficheros1[i] == listaDeficheros2[i]){
+                    salida = "los directorios tienen los mismos coontenidoso";
+                } else {
+                    salida = "los directorios no tienen los mismos coontenidoso";
+                }
+            }
+        }
         return salida;
     }
 }
